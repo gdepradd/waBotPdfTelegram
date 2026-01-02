@@ -1,0 +1,9 @@
+os
+requests
+flask 
+twilio.
+pypdf 
+io 
+openai 
+dotenv 
+gunicorn
