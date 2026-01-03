@@ -58,7 +58,7 @@ def ask_groq(question, context):
     
     PERTANYAAN USER: {question}
     
-    Jawab dengan bahasa Indonesia yang luwes dan jelas.
+    Jawab dengan bahasa Indonesia yang luwes dan jelas maksimal 1200 karakter.
     """
     
     try:
@@ -114,7 +114,7 @@ def bot():
                  msg.body("Halo! 👋 Saya Bot Pembaca PDF. Silakan kirim file PDF dulu ke sini, nanti kita ngobrol.")
             else:
                  msg.body("Belum ada dokumen yang dibaca nih. Kirim file PDF dulu ya! 📄")
-
+    
     return str(resp)
 
 if __name__ == "__main__":
