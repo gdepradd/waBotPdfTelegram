@@ -82,7 +82,7 @@ def bot():
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_content}
                     ],
-                    model="llama3-8b-8192",
+                    model="llama-3.3-70b-versatile",
                 )
                 
                 reply = chat_completion.choices[0].message.content
@@ -104,7 +104,7 @@ def bot():
                 {"role": "system", "content": "Kamu asisten yang membantu."},
                 {"role": "user", "content": text_received}
             ],
-            model="llama3-8b-8192",
+            model="llama-3.3-70b-versatile",
         )
         reply = chat_completion.choices[0].message.content
         send_message(chat_id, reply)
