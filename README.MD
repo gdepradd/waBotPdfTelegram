@@ -36,5 +36,5 @@ This project is a server-side application designed to act as an intelligent docu
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/gdepradd/waBotPdfTelegram](https://github.com/gdepradd/waBotPdfTelegram)
 cd your-repo-name
